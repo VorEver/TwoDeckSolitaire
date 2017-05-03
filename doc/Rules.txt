@@ -1,0 +1,38 @@
+MAMA'S TWO-DECK SOLITAIRE
+a text-based game for Windows
+
+This program is an implementation of a game I learned before I could read.  I
+have never seen this game anywhere in any collection of games or any book of
+card games. The rules of play are simple—the complexity lies in the dealing of
+the tableau.
+
+Two standard decks of 52 playing cards are used.  They are shuffled together,
+then dealt into two rows of 7 piles each.  The piles are number/named for the
+values of the pips on the cards, from ace through king, with the bank, or draw
+pile, being between the 10 and jack piles. All cards to pip value piles are dealt
+face-up, but cards to the bank are dealt face-down.  After every round of 14 
+cards are dealt, two extra cards are dealt to the bank.  Also, if a face up card
+matches the pile it is dealt to, for example, a 4 on the 4 pile, an extra
+face-down card is dealt to the bank.  Also, if an ace or a king is dealt to any
+pile, 2 extra cards are dealt to the bank.  These are cumulative, so if an ace
+is dealt to the ace pile, 3 cards are then dealt to the bank, and if a king is
+dealt to the king pile, five cards are dealt to the bank before the next card is
+dealt to the ace pile.
+
+After all the cards are dealt, gameplay begins. Cards may be played from the
+tableau to form foundation piles.  There will be 8 foundation pile—one for each
+suit going from ace to king and one for each suit going from king to ace.  If no
+cards may be played from the tableau, a card may be drawn from the bank. At this
+time, the drawn card is placed at the bottom of the corresponding pile and that
+pile becomes the hand, and is displayed, in order, below the tableau.  Any card
+form the hand is eligible to be played on the foundation piles.  For example, if
+a 7 is drawn, the 7 is placed at the bottom of the 7 pile, and the 7 pile is
+spread below the tableau to form the hand.  Any card in the hand may be played 
+on a foundation pile.  Also, any tableau cards are still available.
+
+When no cards are playable, the hand is gathered up and returned to its place in
+the tableau and a new card is drawn from the bank and the process is repeated.
+If all the foundation piles are built successfully, the player wins the game.
+If no more card may be played to the foundation, and the bank is empty, the 
+player loses.
+
